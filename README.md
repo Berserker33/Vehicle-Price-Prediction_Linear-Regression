@@ -1,8 +1,8 @@
 # Car Price Prediction Model
 
 # Objective
--Identify which variables have the most significant impact on car price.
--Build a machine learning model to predict car prices based on independent variables.
+# -Identify which variables have the most significant impact on car price.
+# -Build a machine learning model to predict car prices based on independent variables.
 
 
 # 1. Import Libraries
