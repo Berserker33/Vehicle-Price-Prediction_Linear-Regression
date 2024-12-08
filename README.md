@@ -18,14 +18,14 @@ Data is read from a CSV file using pandas.read_csv.
 Basic information about the dataset is retrieved using df.info() and df.head().
 
 # 3. Exploratory Data Analysis (EDA)
-# 3.1 Missing Values:
+3.1 Missing Values:
 
 Missing values are checked using df.isna().sum(). (No missing data found.)
-# 3.2 Outlier Detection:
+3.2 Outlier Detection:
 
 A boxplot (sns.boxplot) is created to detect outliers visually.
 
-# 3.3 Outlier Treatment:
+3.3 Outlier Treatment:
 
 Outliers are treated using the Winsorizing Technique:
 Lower (ll) and upper (ul) limits are calculated for each numeric column using IQR.
